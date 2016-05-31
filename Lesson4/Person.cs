@@ -4,13 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
- * /*
- * Author: Tom Tsiliopolos
- * Date: May 17, 2016
- * Date Modified: May 17, 2016
- * Description: Advanced Methods Demo for Lesson 2
- * Version: 0.0.5 - added readUntilEnd - not completed
- */
+
 namespace Lesson4
 {
     /**

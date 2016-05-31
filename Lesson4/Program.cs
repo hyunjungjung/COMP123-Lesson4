@@ -21,33 +21,20 @@ namespace Lesson4
          */
         public static void Main(string[] args)
         {
-            // create a new instance of the Person Class
-            Person jason = new Person();
-            jason.Name = "Jason";
-            jason.Age = 26;
-            jason.SaysHello();
-            jason.ShowAge();
+            //create instanace of the Student class
+
+            Student tommy = new Student("Tommy", 20, "S123456789");
+            tommy.SaysHello();
 
             Console.WriteLine();
 
-            Person joanne;
-            joanne = new Person("Joanne");
-            joanne.Age = 29;
-            joanne.SaysHello();
-            joanne.ShowAge();
-
+            tommy.Studies();
             Console.WriteLine();
 
-            Person angela = new Person(30);
-            angela.Name = "Angela";
-            angela.SaysHello();
-            angela.ShowAge();
-
-            Console.WriteLine();
-
-            Person sue = new Person("Sue", 23);
-            sue.SaysHello();
-            sue.ShowAge();
+            // create instance of the Teacher class
+            Teacher tom = new Teacher("Tom", 47, "T123456789");
+            tom.SaysHello();
+            tom.Teaches();
 
         }
 
